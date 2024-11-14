@@ -3,9 +3,8 @@ return {
   "ellisonleao/gruvbox.nvim",
   lazy = false,
   priority = 1000,
-  opts = function()
-    return {
-      transparent = true,
-    }
-  end,
+  opts = {
+    terminal_colors = true,
+    transparent_mode = true,
+  },
 }
